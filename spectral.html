@@ -42,18 +42,44 @@
 			
 
 				<!-- One -->
-					<section id="one" class="container-fluid style1 bg-warning special pt-4 p-3">
+					<section id="one" class="">
+						<div id="skills" class='p-0 container-fluid skills pb-4'>
+							<div>
+								<h2 class='text-center p-2'id='skillsbox'>About Me</h2>
+							</div>
+							<div class='row justify-content-center pb-5'>
+								<div class='col-5'>
+									<div class='row'>
+										<P>Don is a software engineer set to graduate in May 2020 from Georiga Tech with a M.S in Computer Science.  Previously, Don worked for the Walt Disney Company and is now currently interning for the Los Angeles Clippers. </P>
+									</div>
+									<div class='row'>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magnam perferendis tempore ut vel iure fuga maiores alias aspernatur mollitia similique quasi, consectetur sunt quidem reiciendis amet cum sit ab!</p>
+									</div>
+							</div>
+						
+						<div class='col-3'>
+							<img id="donphoto" src='./images/don2.jpg' className='img-fluid'>
+						</div>
+						</div>
+						<div class='row justify-content-center'>
 						<div class="inner ">
+						
 							<ul class="icons major">
-								<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
+								<li><span class="icon major style1"><img class='abicon' id='link' src='./images/linked_icon.png'/></span></li>
+
+								<li><span class="icon major styledon1"><img class='abicon2' id='link' src='./images/github.png'/></span></li>
+
+								<li><span class="icon major style1"><img class='abicon2' id='link' src='./images/linked_icon.png'/></span></li>
+					
 							</ul>
 						</div>
+					</div>
 					</section>
+
+
 					<div id='page_container' class=' '>
 						<!-- SKILLS SECTION -->
-						<div id="skills" class='p-0 container-fluid skills'>
+						<div id="skills" class='p-0 container-fluid skills shake'>
 							<div>
 							<h2 class='text-center p-2'id='skillsbox'>Skills</h2>
 							</div>
@@ -62,13 +88,13 @@
 								<div class='col-4 text-center' id='frameworks'>
 									<h4 class='mb-3 skill-headings '>Frameworks/Libs</h4>
 									<ul>
-										<li><i style="color:rgb(0, 204, 255)" class="fab fa-react"></i> React.js</li>
+										<li><img class='redux'src='./images/react2-icon.png'/> React.js</li>
 										<li><img class='redux'src='./images/redux-icon.png'/> Redux</li>
-										<li><i style="color:rgb(98, 0, 255)"class="fab fa-bootstrap"></i> Bootstrap 4</li> 
-										<li><i style="color:rgb(0, 140, 255);font-size:1rem;"class="fas fa-box"></i> Flexbox</li>
+										<li><img class='redux'src='./images/bs-icon.png'/> Bootstrap 4</li>
+										<li><img class='redux'src='./images/express-icon.png'/> Node.js</li>
+										<li><img class='redux'src='./images/node-icon.png'/> Express</li>
 										<li><img class='redux'src='./images/jquery-icon.png'/> Jquery</li>
-										<li>Express</li>
-										<li>Node.js</li>
+									
 									</ul>
 								</div>
 								<div class='col-4 text-center' id='languages'>
@@ -84,55 +110,65 @@
 								<div class='col-4 text-center' id='technologies'>
 									<h4 class='mb-3 skill-headings '> Technologies</h4>
 									<ul>
-										<li><i style='color:rgb(29, 120, 150)'class="fas fa-database"></i> SQL</li>
+										<li><img class='redux'src='./images/db-icon.png'/> SQL</li>
 										<li><img class='redux'src='./images/mongodb-icon.png'/> MongoDB</li>
 										<li><img class='redux'src='./images/mysql-icon.png'/> MySQL</li>
-										<li><i class="fab fa-git-alt"></i> Git</li>
-										<li><i style='color:orange'class="fab fa-aws"></i> AWS</li> 
+										<li><img class='redux'src='./images/git-icon.png'/> Git</li>
+										<li><img class='python'src='./images/aws-icon.png'/> AWS</li>
 									</ul>
 								</div>
 							</div>
 							</div>
 						</div>
 
+
+						<!-- card container -->
+
+			
 						<!-- PROJECT SECTION -->
         <div id='projects' class='container-fluid p-0 pb-5'>
 			<h2 class='text-center p-2'id='skillsbox'>Projects</h2>
-			<div class='skillscontainer p-4 my-5' id='project1'>
-				<h1 class='px-4 pt-4 mb-4' id='dodgergametitle'>Match the Dodger Game</h1>
+		
+		<!-- proj1 -->
+			<div class='skillscontainer nolist pt-3 pr-4' id='project1'>
+				<h1 class='px-4 pt-1 my-2' id='dodgergametitle'>Bodybuilding Website</h1>
 				<div class='row align-items-center'>
-					<div class='col-6 embed-responsive '>
+					<div class='col-7 embed-responsive '>
 						<div class='row m-3 '>
 						<!-- <video class=''src='./images/dodgers.mp4' controls></video> -->
-						<img src='./images/dodgers.png' class='img-fluid'>
+						<img src='./images/bodybuilding.png' class='ml-2 img-fluid projimg mb-4'>
 					</div>
 						<div class='row justify-content-center '>
 							
-								<a href="#link" id='demobutton' class="btn col-3 btn-primary " role="button">Play It!</a>
-								<a href="#link" id='sourcebutton' class="btn col-5 btn-secondary" role="button">Source Code</a>
+								<a href="https://bodybuilding.netlify.com/" id='demobutton' target='_blank' class="btn col-3 btn-primary " role="button">Visit</a>
+
+								<a href="https://github.com/Donaldvu18/bodybuilding_app" id='sourcebutton' target='_blank' class="btn col-5 btn-secondary" role="button">Source Code</a>
 						
 						</div>
 					</div>
-					<div class='col-6 p-4'>
+					<div class='col-5 p-4'>
 						<div class='row justify-content-center text-center'>
-							<h3 class='mb-4'><u>Overview</u></h3>
-							<p>Created a game with React where the user matches the Player name to his picture.  Came up with the idea as a way for people to get familiar with the team roster.  Hosted on Netlify.</p>
+							<h3 class='mb-3'><u>Overview</u></h3>
+							<p class=''>Created a website where users can find workout videos and healthy recipes using the Youtube/Food API.</p>
 							
 						</div>
-						<hr>
+						
 						<div class='row text-center justify-content-center'>
-							<h3 class='col-12 mb-4 ml-5'><U>Frameworks</U></h3>
-							<ul id='projlist'>
-							<li> React Hooks</li>
-							<li> Context API</li>
-							<li> Bootstrap 4</li>
+							<h3 class='col-12 mt-3 mb-3 ml-5'><U>Frameworks</U></h3>
+							<ul id='projlist' class=''>
+							<li> &#8226; React.js</li>
+							<li> &#8226; Youtube API</li>
+							<li> &#8226; Spoonacular API</li>
+							<li> &#8226; Bootstrap 4</li>
+							<li> &#8226; Axios</li>
 						</ul>
 						</div>
-						<hr>
-						<div class='row mt-1  text-center justify-content-center'>
-							<h3 class=' col-12 ml-5 mb-4'><U>Challenges</U></h3>	
-							<ul id='projlist1'>
-							<li>Scaling images to fit and be responsive.</li> <li>Finding API to retrieve player info and headshots.</li>
+						
+						<div class='row text-center justify-content-center'>
+							<h3 class=' col-12 mt-3 ml-5 mb-3'><U>Features</U></h3>	
+							<ul id='projlist1' class=''>
+							<li>&#8226; Can search Youtube by clicking a photo of a specific muscle</li>
+							<li>&#8226; Every search is done in real-time and constantly updates.</li>
 						</ul>
 
 						</div>
@@ -141,50 +177,106 @@
 				</div>
 
 			</div>
+<!-- proj 2 -->
+<div class='skillscontainer nolist mt-5 pt-3 pr-4' id='project1'>
+	<h1 class='px-4 pt-1 my-2' id='dodgergametitle'>Video Streaming Website</h1>
+	<div class='row align-items-center'>
+		<div class='col-7 embed-responsive '>
+			<div class='row m-3 '>
+			<!-- <video class=''src='./images/dodgers.mp4' controls></video> -->
+			<img src='./images/dodgers.png' class='ml-2 img-fluid projimg mb-4'>
+		</div>
+			<div class='row justify-content-center '>
+				
+					<a href="https://dodgers.netlify.com/" id='demobutton' target='_blank' class="btn col-3 btn-primary " role="button">Visit</a>
 
-			<div class='skillscontainer p-4' id='project1'>
-					<h1 class='px-4 pt-4 mb-4' id='dodgergametitle'>Match the Dodger Game</h1>
-					<div class='row align-items-center'>
-						<div class='col-6 embed-responsive '>
-							<div class='row m-3 '>
-							<!-- <video class=''src='./images/dodgers.mp4' controls></video> -->
-							<img src='./images/dodgers.png' class='img-fluid'>
-						</div>
-							<div class='row justify-content-center '>
-								
-									<a href="#link" id='demobutton' class="btn col-3 btn-primary " role="button">Play It!</a>
-									<a href="#link" id='sourcebutton' class="btn col-5 btn-secondary" role="button">Source Code</a>
-							
-							</div>
-						</div>
-						<div class='col-6 p-4'>
-							<div class='row justify-content-center text-center'>
-								<h3 class='mb-4'><u>Overview</u></h3>
-								<p>Created a game with React where the user matches the Player name to his picture.  Came up with the idea as a way for people to get familiar with the team roster.  Hosted on Netlify.</p>
-								
-							</div>
-							<hr>
-							<div class='row text-center justify-content-center'>
-								<h3 class='col-12 mb-4 ml-5'><U>Frameworks</U></h3>
-								<ul id='projlist'>
-								<li> React Hooks</li>
-								<li> Context API</li>
-								<li> Bootstrap 4</li>
-							</ul>
-							</div>
-							<hr>
-							<div class='row mt-1  text-center justify-content-center'>
-									<h3 class=' col-12 ml-5 mb-4'><U>Challenges</U></h3>	
-									<ul id='projlist1'>
-									<li>Scaling images to fit and be responsive.</li> <li>Finding API to retrieve player info and headshots.</li>
-								</ul>
+					<a href="https://github.com/Donaldvu18/video_streaming_app" id='sourcebutton' target='_blank' class="btn col-5 btn-secondary" role="button">Source Code</a>
+			
+			</div>
+		</div>
+		<div class='col-5 align-items-start p-4'>
+			<div class='row justify-content-center text-center'>
+				<h3 class='mb-3'><u>Overview</u></h3>
+				<p class=''>Created a website wheres users can login with their Google credentials and then launch a streaming channel for others to view.</p>
+				
+			</div>
+			
+			<div class='row text-center justify-content-center'>
+				<h3 class='col-12 mt-3 mb-3 ml-5'><U>Frameworks</U></h3>
+				<ul id='projlist' class=''>
+				<li> &#8226; React.js</li>
+				<li> &#8226; Redux</li>
+				<li> &#8226; BrowserRouter</li>
+				<li> &#8226; Google API</li>
+				<li> &#8226; Semantic UI</li>
+				<li> &#8226; Axios</li>
+			</ul>
+			</div>
+			
+			<div class='row text-center justify-content-center'>
+				<h3 class=' col-12 mt-3 ml-5 mb-3'><U>Features</U></h3>	
+				<ul id='projlist1' class=''>
+				<li>&#8226; Used node media server to create a web server for hosting all the streams.</li>
 		
-								</div>
-						</div>
-	
+			</ul>
+
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+			
+			
+
+			<!-- proj3 -->
+			<div class='skillscontainer nolist mt-5 pt-3 pr-4' id='project1'>
+				<h1 class='px-4 pt-1 my-2' id='dodgergametitle'>Match the Dodger Game</h1>
+				<div class='row align-items-center'>
+					<div class='col-7 embed-responsive '>
+						<div class='row m-3 '>
+						<!-- <video class=''src='./images/dodgers.mp4' controls></video> -->
+						<img src='./images/dodgers.png' class='ml-2 img-fluid projimg mb-2'>
 					</div>
-	
+						<div class='row justify-content-center '>
+							
+								<a href="https://dodgers.netlify.com/" id='demobutton' target='_blank' class="btn col-3 btn-primary " role="button">Visit</a>
+
+								<a href="https://github.com/Donaldvu18/dodgers_game" id='sourcebutton' target='_blank' class="btn col-5 btn-secondary" role="button">Source Code</a>
+						
+						</div>
+					</div>
+					<div class='col-5 p-4'>
+						<div class='row justify-content-center text-center'>
+							<h3 class='mb-3'><u>Overview</u></h3>
+							<p class=''>Created a game with React Hooks where the user matches the Dodger player to his picture.</p>
+							
+						</div>
+						
+						<div class='row text-center justify-content-center'>
+							<h3 class='col-12 mt-3 mb-3 ml-5'><U>Frameworks</U></h3>
+							<ul id='projlist' class=''>
+							<li> &#8226; React Hooks</li>
+							<li> &#8226; Context API</li>
+							<li> &#8226; Bootstrap 4</li>
+						</ul>
+						</div>
+						
+						<div class='row text-center justify-content-center'>
+							<h3 class=' col-12 mt-3 ml-5 mb-3'><U>Features</U></h3>	
+							<ul id='projlist1' class=''>
+							<li>&#8226; Communicates with ESPN API to retrieve player info and headshots.</li>
+					
+						</ul>
+
+						</div>
+					</div>
+
 				</div>
+
+			</div>
+			<!-- end -->
 		</div>
 	
 		<section id="cta" class="wrapper style4">

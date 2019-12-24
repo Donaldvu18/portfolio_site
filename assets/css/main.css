@@ -239,11 +239,11 @@ h4{
 }
 
 #projimg2{
-	max-width:90%;
+	max-width:95%;
 }
 #bodytitle{
 	font-size:2rem;
-	background-color: rgba(230, 212, 112, 0.959);
+	background-color: rgba(255, 217, 0, 0.726);
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	border:1px solid black;
 	letter-spacing: .25rem;
@@ -259,7 +259,7 @@ h4{
 
 #dodgergametitle{
 	font-size:2rem;
-	background-color: #3686fd96;
+	background-color: #3686fd77;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	border:1px solid black;
 	letter-spacing: .25rem;
@@ -4285,7 +4285,13 @@ input, select, textarea {
 
 	.abicon2{
 		width:2.1rem;
-	
+	}
+
+	.abicon3{
+		width:2rem;
+	}
+	#link1{
+		width:3rem;
 	}
 	body.landing #footer {
 		background-color: rgba(29, 36, 42, 0.9);

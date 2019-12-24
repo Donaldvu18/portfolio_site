@@ -56,6 +56,12 @@ div li{
 	list-style:inside;
 	
 }
+#projimg1{
+	max-width:110%;
+}
+/* .img-fluid{
+	max-width:40%;
+} */
 #projlist1{
 	list-style-type:circle;
 	font-size:1rem;
@@ -71,6 +77,16 @@ div li{
 	/* padding-top:1rem; */
 }
 
+#aboutbox{
+	background-color: rgb(34, 175, 185);
+	padding-left:4rem;
+	font-size:2rem;
+	/* border-radius:25px; */
+	border:3px solid rgb(55, 55, 141);
+	/* padding-top:2rem; */
+	margin-bottom:4rem;
+}
+
 #skillsbox{
 	background-color: rgb(34, 175, 185);
 	padding-left:4rem;
@@ -79,8 +95,19 @@ div li{
 	border:3px solid rgb(55, 55, 141);
 	/* padding-top:2rem; */
 	margin-bottom:4rem;
-
+	
 }
+
+#projectbox{
+	background-color: rgb(34, 175, 185);
+	padding-left:4rem;
+	font-size:2rem;
+	/* border-radius:25px; */
+	border:3px solid rgb(55, 55, 141);
+	/* padding-top:2rem; */
+	margin-bottom:4rem;
+}
+
 .skillscontainer{
 	width:80%;
 	margin:auto;
@@ -195,10 +222,10 @@ h4{
 	border-radius:100px;
 }
 
-projects hr{
+/* #projects hr{
 	border:white;
 	color:white;
-}
+} */
 #projects{
 	justify-content:center;
 	background-color:rgb(7, 32, 65);
@@ -210,9 +237,34 @@ projects hr{
 	color:white;
 	margin:auto;
 }
+
+#projimg2{
+	max-width:90%;
+}
+#bodytitle{
+	font-size:2rem;
+	background-color: rgba(230, 212, 112, 0.959);
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	border:1px solid black;
+	letter-spacing: .25rem;
+}
+
+#videotitle{
+	font-size:2rem;
+	background-color: #63c2afd2;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	border:1px solid black;
+	letter-spacing: .25rem;
+}
+
 #dodgergametitle{
 	font-size:2rem;
+	background-color: #3686fd96;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	border:1px solid black;
+	letter-spacing: .25rem;
 }
+
 #demobutton{
 	margin-left:1rem;
 	margin-bottom:1rem;
@@ -2296,6 +2348,19 @@ input, select, textarea {
 				}
 
 			}
+			.icon.major:hover{
+				-webkit-transition: all 0.3s ease-out;
+			
+				-moz-transition: all 0.3s ease-out;
+				
+				-o-transition: all 0.3s ease-out;
+				
+				opacity:.60;
+				
+				-webkit-opacity:.60;
+				
+				-moz-opacity:.60;
+			}
 
 		.icon.style1 {
 			color: #00ffcc;
@@ -4214,12 +4279,12 @@ input, select, textarea {
 		transform: rotate(45deg);
 	}
 	.abicon{
-		width:2rem;
+		width:1.5rem;
 	}
 
 
 	.abicon2{
-		width:2.6rem;
+		width:2.1rem;
 	
 	}
 	body.landing #footer {

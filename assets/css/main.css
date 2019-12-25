@@ -78,7 +78,7 @@ div li{
 }
 
 #aboutbox{
-	background-color: rgb(34, 175, 185);
+	background-color: rgba(24, 108, 187, 0.877);
 	padding-left:4rem;
 	font-size:2rem;
 	/* border-radius:25px; */
@@ -99,7 +99,7 @@ div li{
 }
 
 #projectbox{
-	background-color: rgb(34, 175, 185);
+	background-color: rgba(77, 158, 182, 0.966);
 	padding-left:4rem;
 	font-size:2rem;
 	/* border-radius:25px; */
@@ -121,24 +121,26 @@ div li{
 	/* *display:inline; */
 }
 #myname{
-	font-size:4rem;
+	font-size:2.3rem;
 	text-transform: none;
 	text-align:center;
 	letter-spacing: .5rem;
+	padding-left:1.5rem;
 }
 #headp {
-	font-size:1.5rem;
-	margin-top:.6rem;
+	font-size:1rem;
+	margin-top:1rem;
 	color:white;
 	/* line-height:3rem; */
 	padding-left:1.5rem;
+	margin-bottom:1rem;
 }
 #fullstack {
-	font-size:1.2rem;
+	font-size:.8rem;
 	color:white;
 	/* line-height:3rem; */
 	padding-left:1.5rem;
-	margin-bottom:1.5rem;
+	margin-bottom:1rem;
 }
 .arrow{
 	padding-left:5rem;
@@ -148,7 +150,7 @@ div li{
 	font-size:rem;
 }
 #buttonp{
-	font-size:1rem;
+	font-size:.7rem;
 }
 .icons.major{
 	/* padding:1rem; */
@@ -4265,6 +4267,19 @@ input, select, textarea {
 		padding-top: 0px;
 		margin-top:0px
 	}
+
+	a{
+		text-decoration: none;
+	}
+	.imglink{
+		text-decoration: none;
+		outline:none;
+		border:0px !important;
+		border-width: 0px;
+		outline-width:0px;
+		border-bottom: none;
+	}
+
 	#link{
 		/* position:center; */
 

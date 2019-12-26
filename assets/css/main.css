@@ -37,16 +37,13 @@ ol, ul {
 	list-style: none;
 }
 .python{
-    width:1.6rem;
+    width:1.8rem;
 }
 div ul{
 	list-style-type:none;
 	font-size:1.5rem;
 }
 
-div li{
-	
-}
 .redux{
     width:1.4rem;
 }
